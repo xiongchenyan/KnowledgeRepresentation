@@ -20,7 +20,7 @@ from FreebaseDump.FbObjWikiMatch import FbObjWikiMatchC
 from cxBase.Conf import cxConfC
 import sys
 
-MinRho = 0.5
+MinRho = 0
 
 def ProcessOneLine(line,WikiFbMatcher):
     if not '#' in line:
